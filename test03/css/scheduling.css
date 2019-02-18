@@ -1,0 +1,168 @@
+/* scheduling-top */
+.scheduling{
+	margin: 20px auto;
+}
+.schedul-top{
+	width: 1000px;
+	height: 40px;
+	line-height: 40px;
+}
+.schedul-top span{
+	display: inline-block;
+	margin: 0 10px;
+}
+.schedul-top .back{
+	text-decoration: none;
+	color: #60bff2;
+	font-size: 14px;
+}
+
+/* schedul-content */
+.schedul-content .content-left,
+.schedul-content .content-right{
+	float: left;
+}
+/* content-left */
+.schedul-content-left,
+.schedul-content-middle,
+.schedul-content-right{
+	float: left;
+}
+/* left */
+.schedul-content-left{
+	width: 34px;
+	height: 321px;
+	border: 1px solid rgba(200,200,200,.2);
+	border-right: none;
+	border-top: none;
+}
+.left-button{
+	width: 34px;
+	height: 51px;
+}
+.left-button a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.schedul-content-left .status{
+	background: #BBFFFF;
+	height: 90px;
+	width: 34px;
+	line-height: 90px;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* middle */
+.schedul-content-middle{
+	width: 638px;
+	height: 322px;
+	position: relative;
+	overflow: hidden;
+}
+.middle-box{
+	width: 6000px;
+	position: absolute;
+	left: 0;
+	top: 0;
+	transition: all 1s;
+}
+.middle-box .middle-item{
+	width: 90px;
+	height: 320px;
+	float: left;
+	border: 1px solid rgba(200,200,200,.2);
+	border-right: none;
+}
+.middle-box .middle-item .date{
+	width: 90px;
+	height: 43px;
+	padding-top: 7px;
+	text-align: center;
+	background: #eee;
+	color: #999;
+	font-size: 13px;
+}
+.middle-box .middle-item .status{
+	width: 90px;
+	height: 89px;
+	line-height: 89px;
+	text-align: center;
+	border-bottom: 1px solid rgba(200,200,200,.2);
+}
+.middle-box .middle-item .status-full{
+	background-color: #D2E9FF;
+	color: #2894FF;
+	font-size: 14px;
+}
+
+/* right */
+.schedul-content-right{
+	width: 34px;
+	height: 321px;
+	border: 1px solid rgba(200,200,200,.2);
+	border-left: none;
+	border-top: none;
+}
+.right-button{
+	width: 34px;
+	height: 51px;
+}
+.right-button a img{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+.schedul-content-right .status{
+	background: #BBFFFF;
+	height: 90px;
+	width: 34px;
+	line-height: 90px;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* content-right */
+.content-right{
+    width: 291px;
+    height: 320px;
+    /*margin-left: 10px;*/
+    border: 1px solid rgba(200,200,200,.2);
+    border-right: none;
+}
+.content-right .rule-title{
+    width: 281px;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 10px;
+    background: #f7f7f7;
+}
+.content-right .rule-content{
+    width: 291px;
+    height: 270px;
+    overflow: auto;
+}
+
+
+/* schedul-footer */
+.schedul-footer{
+	height: 80px;
+	border: 1px solid rgba(200,200,200,.2);
+	border-top: none;
+	line-height: 80px;
+	text-align: center;
+}
+.schedul-footer .foot{
+	font-size: 18px;
+	color: #999;
+}
+.schedul-footer .foot:before{
+	display: inline-block;
+	margin-right: 5px;
+	content: '';
+	width: 20px;
+	height: 20px;
+	vertical-align: middle;
+	background: url('../img/icon-info.jpg');
+}

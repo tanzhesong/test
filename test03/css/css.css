@@ -1,0 +1,402 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "微软雅黑";
+}
+
+.wrap{
+    width: 1000px;
+    margin: 0 auto;
+}
+.clear{
+    clear: both;
+}
+
+/* top */
+.top{
+    width: 100%;
+    height: 30px;
+    background: #f3f5f7;
+}
+.top-left{
+    float: left;
+    line-height: 30px;
+    padding-left: 25px;
+    background: url('http://climg.mukewang.com/58c61b9d0001e02d00170017.png') no-repeat 0 5px;
+    font-size: 13px;
+}
+.top-right{
+    float: right;
+    line-height: 30px;
+    font-size: 13px;
+}
+.top-right span a{
+    text-decoration: none;
+    margin-left: 20px;
+    color: #5bb8e8;
+}
+.help{
+    padding-left: 20px;
+}
+
+/* logo */
+.logo{
+    width: 100%;
+    height: 80px;
+}
+.logo-left{
+    float: left;
+    height: 80px;
+    line-height: 80px;
+}
+.logo-left img{
+    width: 400px;
+    height: 80px;
+}
+.logo-right{
+    float: right;
+    width: 330px;
+    height: 40px;
+    line-height: 40px;
+    margin-top: 20px;
+    background: url('http://climg.mukewang.com/58c61b7e00012b9303260038.jpg') no-repeat;
+    position: relative;
+}
+.logo-right a{
+    text-decoration: none;
+    color: #fff;
+}
+.logo-right .logo-caption{
+    display: block;
+    width: 70px;
+    height: 40px;
+    text-indent: 10px;
+    font-size: 14px;
+}
+.logo-search-list{
+    position: absolute;
+    left: 0;
+    width: 70px;
+    height: 90px;
+    background: #000;
+    top: 39px;
+    border-radius: 5px;
+    display: none;
+}
+.logo-search-list a{
+    display: block;
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+}
+.logo-search-list .item:hover{
+    background: #f3f5f7;
+    color: #000;
+}
+.logo-right .input{
+    position: absolute;
+    left: 72px;
+    top: 3px;
+    width: 210px;
+    height: 30px;
+    font-size: 12px;
+    outline: none;
+    border: none;
+}
+.logo-search{
+    display: block;
+    position: absolute;
+    right: 5px;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    /*background: #aaa;*/
+}
+
+
+/* navi */
+.navi{
+    width: 100%;
+    height: 30px;
+    background: #60bff2;
+}
+.navi-item-left,
+.navi-item-right{
+    display: block;
+    width: 90px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+}
+.navi-item-left{          
+    float: left;
+    margin: 0 10px;
+}
+.navi-item-right{
+    float: right;
+}
+.navi .item-active{
+    background-color: #1fa4f0;
+}
+.navi .wrap a:hover{
+    /*background-color: #1fa4f0;*/
+    color: #d7f3ff;
+}
+
+/* hospital-info */
+.info-box{
+    width: 940px;
+    padding: 20px 30px;
+    background: #f7f7f7;
+    margin: 40px 0;
+    font-size: 14px;
+}
+.info-box-header{
+    height: 40px;
+    border-bottom: 1px solid #333;
+}
+.info-box-header .header-left{
+    float: left;
+}
+.info-box-header .header-left .name{
+    font-size: 18px;
+    display: inline-block;
+}
+.info-box-header .header-left a{
+    display: inline-block;
+    text-decoration: none;
+    color: #FFD306;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.info-box-header .header-right{
+    float: right;
+}
+.info-box-header .header-right .item{
+    float: left;
+    margin-left: 10px;
+}
+.info-box-header .header-right .item .title{
+    color: #2828FF;
+    font-weight: bold;
+}
+.info-content .item{
+    float: left;
+    margin-top: 10px;
+}
+.info-content .left{
+    width: 210px;
+    height: 170px;
+}
+.info-content .left img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.info-content .middle{
+    width: 440px;
+    margin: auto 20px;
+}
+.info-content .middle .middle-item{
+    display: block;
+    line-height: 25px;
+    padding-left: 20px;
+    color: #666;
+    position: relative;
+}
+.info-content .middle .middle-item:before{
+    content: '';
+    display: block;
+    width: 16px;
+    height: 21px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+    background: url('../img/icon-web.png') 0 0 no-repeat;
+}
+.info-content .middle .middle-item:nth-child(2):before{
+    background-position-y: -22px;
+}
+.info-content .middle .middle-item:nth-child(3):before{
+    background-position-y: -43px;
+}
+.info-content .middle .middle-item:nth-child(4):before{
+    background-position-y: -64px;
+}
+
+.info-content .right{
+    width: 250px;
+    height: 210px;
+}
+.info-content .right img{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* 医院navi */
+.hospital-navi{
+    height: 30px;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #60bff2;
+}
+.hospital-navi .item{
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    padding: 0 20px;
+    text-decoration: none;
+    color: #60bff2;
+    border-radius: 2px 2px 0 0;
+}
+.hospital-navi .hospital-navi-active{
+    background: #60bff2;
+    color: #fff;
+}
+.hospital-navi .item:hover{
+    background: #60bff2;
+    color: #fff;
+}
+
+
+/* navi-content */
+.hospital-navi-content .item{
+    display: none;
+}
+.hospital-navi-content .content-active{
+    display: block;
+}
+
+.hospital-navi-content .item .appoint-left,
+.hospital-navi-content .item .appoint-right{
+    float: left;
+}
+.hospital-navi-content .item .appoint-left{
+    width: 730px;
+    height: 404px;
+}
+.appoint-left .appoint-title{
+    width: 700px;
+    height: 40px;
+    line-height: 40px;
+    padding-left: 30px;
+    background: #f7f7f7;
+}
+.appoint-left .appoint-content{
+    width: 728px;
+    height: 90px;
+    border: 1px solid rgba(200,200,200,.2);
+    border-top: none;
+}
+.appoint-left .appoint-content .appoint-caption,
+.appoint-left .appoint-content .appoint-name{
+    float: left;
+}
+.appoint-left .appoint-content .appoint-caption{
+    width: 150px;
+    height: 70px;
+    padding: 10px 0;
+    text-align: center;
+    background: #BBFFFF;
+    color: #444;
+}
+.appoint-left .appoint-content .appoint-name{
+    width: 578px;
+    height: 90px;
+}
+.appoint-name .item{
+    display: inline-block;
+    width: 130px;
+    height: 30px;
+    line-height: 30px;
+    padding-left: 10px;
+    text-decoration: none;
+    color: #000;
+}
+.appoint-right{
+    width: 259px;
+    height: 280px;
+    margin-left: 10px;
+    border: 1px solid rgba(200,200,200,.2);
+    border-right: none;
+}
+.rule-title{
+    width: 249px;
+    height: 39px;
+    line-height: 39px;
+    padding-left: 10px;
+    background: #f7f7f7;
+}
+.rule-title .update{
+    font-size: 13px;
+    color: #60bff2;
+}
+.rule-content{
+    width: 259px;
+    height: 240px;
+    overflow: auto;
+}
+.rule-content .item-left,
+.rule-content .item-right{
+    display: inline-block;
+    padding: 5px 0 0 5px;
+    font-size: 12px;
+}
+.rule-content .item-left{
+    width: 60px;
+    vertical-align: top;
+}
+.rule-content .item-right{
+    width: 169px;
+    color: #777;
+}
+
+.introduce,
+.inform,
+.stopInfo,
+.cancell{
+    text-align: center;
+}
+.cancell{
+    height: 100px;
+    line-height: 100px;
+    margin-top: 30px;
+    border-top: 1px solid rgba(150,150,150,.2);
+    border-bottom: 1px solid rgba(150,150,150,.2);
+}
+.cancell span,
+.cancell .input,
+.cancell .button{
+    vertical-align: middle;
+}
+.cancell .input{
+    height: 20px;
+    outline: none;
+    border: 1px solid rgba(150,150,150,.2);
+}
+.cancell .button{
+    width: 100px;
+    height: 25px;
+    background: #60bff2;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.footer{
+    width: 100%;
+    /*height: 50px;*/
+    line-height: 60px;
+    text-align: center;
+    background: #f3f5f7;
+    color: #acacac;
+    margin-top: 50px;
+}
