@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.clear{
+	clear: both;
+}
+/*头部*/
+.header{
+	width: 100%;
+}
+.header .head{
+	width: 100%;
+	height: 100px;
+	background-color: #00CACA;
+	position: fixed;
+	z-index: 5;
+	overflow: hidden;
+	zoom:1;
+}
+/*头部左侧logo*/
+.header .head .logo{
+	float: left;
+}
+/*头部右侧导航*/
+.header .head .nav{
+	float: right;
+}
+.header .head .logo img{
+	padding-left: 70px;
+	padding-top: 26px;
+	line-height: 100px;
+	display: block;
+}
+.header .head .nav ul{
+	padding-right: 70px;
+}
+.header .head .nav ul li{
+	list-style: none;
+	float: left;
+	height: 100px;
+	padding: 0 10px;
+	text-align: center;
+	line-height: 100px;
+	font-weight: bold;
+	color: white;
+}
+.header .head .nav ul li a{
+	text-decoration: none;
+	color: #fff;
+}
+.header .head .nav ul li:hover{
+	background-color: black;
+	cursor: pointer;
+}
+/*头部banner部分*/
+.header .banner{
+	width: 100%;
+	height: 500px;
+	padding-top: 100px;
+}
+.header .banner img{
+	width: 100%;
+	height: 500px;
+}
+/*banner部分遮罩层*/
+.header .banner_mask{
+	position: absolute;
+	top: 100px;
+	left: 0;
+	width: 100%;
+	height: 500px;
+	background-color: #000;
+	opacity: 0.5;
+}
+/*遮罩层上的块内容*/
+.header .banner_mask_top{
+	width: 500px;
+	height: 332px;
+	/*background-color: #000;*/
+	position: absolute;
+	top: 184px;
+	/*margin-top: -100px;*/
+	z-index: 2;
+	right: 50%;
+	margin-right: -250px;
+	text-align: center;
+	line-height: 50px;
+	font-family: "微软雅黑";
+}
+/*设置单行文本和多行文本的宽度*/
+.header .banner_mask_top form input,textarea{
+	width: 380px;
+}
+.header .banner_mask_top form input,textarea,button{
+	padding: 8px;
+	background-color: transparent;
+	color: #ddd;
+	font-family: "微软雅黑";
+	border: 1px #888 solid;
+	font-weight: bolder;
+}
+.header .banner_mask_top form input:hover{
+	border: 1px #4DFFFF solid;
+}
+.header .banner_mask_top form textarea:hover{
+	border: 1px #4DFFFF solid;
+}
+.header .banner_mask_top form button:hover{
+	background-color: #00CACA;
+	cursor: pointer;
+	border: none;
+}
+/*设置预置文字的样式*/
+::-webkit-input-placeholder{
+	color: #ddd;
+	font-family: "微软雅黑";
+	font-size: 12px;
+}
+.header .banner_mask_top form textarea{
+	margin-top: 10px;
+}
+.about1{
+	width: 70%;
+	margin: 40px auto;
+	text-align: center;
+}
+/*标题下面的小短线*/
+.about1 div hr{
+	width: 2%;
+	margin: 12px auto;
+	border: none;
+	height: 2px;
+	background-color: #00CACA;
+}
+.about1 div p{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #888;
+}
+.about1 .stu{
+	width: 80%;
+	margin: 0 auto;
+	margin-top: 20px;
+	overflow: hidden;
+	zoom:1;
+}
+.about1 .stu .about1_left{
+	width: 20%;
+	float: left;
+	
+}
+.about1 .stu .about1_left p{
+	/*font-weight: bolder;*/
+	font-family: "微软雅黑";
+	font-size: 25px;
+	color: black;
+	width: 150px;
+}
+.about1 .stu .about1_middle{
+	width: 60%;
+	float: left;
+}
+.about1 .stu .about1_middle img{
+	width: 100%;
+}
+.about1 .stu .about1_right{
+	width: 20%;
+	float: left;
+}
+.about1 .stu .about1_right .students,.faculty{
+	width: 140px;
+	height: 70px;
+	border: 1px #00CACA solid;
+	padding: 10px 0;
+	margin: 20px;
+	margin-top: 0;
+}
+.about1 .stu .about1_right p{
+	color: black;
+	font-weight: bolder;
+}
+.about1 .stu .about1_right .num{
+	font-weight: bolder;
+	font-size: 22px;
+}
+.about1 .stu .about1_right hr{
+	width: 15%;
+}
+/*.about1 .paresent_mask{
+	width: 280px;
+	height: 200px;
+	background-color: #BEBEBE;
+	opacity: 0.3;
+	text-align: left;
+	line-height: 22px;
+	padding: 20px;
+	position: absolute;
+	z-index: 2;
+	margin-top: -250px;
+	margin-left: 120px;
+	/*font-size: 13px;
+}*/
+.about1 .paresent_top{
+	width: 250px;
+	height: 170px;
+	text-align: left;
+	line-height: 22px;
+	padding: 20px;
+	position: absolute;
+	z-index: 3;
+	margin-top: -270px;
+	margin-left: 120px;
+	font-size: 13px;
+	border: 1px solid #ccc;
+	background: rgba(255,255,255,0.5);
+}
+.explore{
+	background-color: black;
+	color: white;
+	margin-top: 15px;
+}
+.explore:hover{
+	background-color: transparent;
+	border: 1px black solid;
+	color: black;
+	cursor: pointer;
+}
+/*about2中的图片块*/
+.about2 .about2-img{
+	width: 25%;
+	position: relative;
+}
+.about2 .about2-img img{
+	width: 100%;
+	height: 300px;
+	display: block;
+}
+/*about2中的文字块*/
+.about2 .bg-blue{
+	background-color: #00CACA;
+	width: 25%;
+	height: 260px;
+	font-family: "微软雅黑";
+	color: white;
+	padding: 20px 0;
+	position: relative;
+}
+.about2 .about2-img,.bg-blue{
+	float: left;
+}
+.inner{
+	padding: 0 40px;
+}
+/*小箭头*/
+.arrow-left{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 30px 20px 0;
+	border-color: transparent #07cbc9 transparent transparent;
+	position: absolute;
+	top: 130px;
+	left: -30px;
+}
+.arrow-right{
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 20px 0 20px 30px;
+	border-color: transparent transparent transparent #07cbc9;
+	position: absolute;
+	top: 130px;
+}
+.about2 .bg-blue .p1{
+	font-size: 14px;
+	line-height: 25px;
+	margin: 10px 0;
+}
+.about2 .bg-blue .p2{
+	font-size: 10px;
+	line-height: 15px;
+	color: #d0d0d0;
+}
+.about2 .bg-blue .explore{
+	margin: 35px 110px;
+	border: none;
+}
+.about2 .bg-blue .explore:hover{
+	background: #00CACA;
+	border: 1px solid #000;
+}
+.gallery{
+	width: 78%;
+	margin: 40px auto;
+	text-align: center;
+}
+.gallery div hr{
+	width: 2%;
+	margin: 12px auto;
+	background-color: #00CACA;
+	border: none;
+	height: 2px;
+}
+.gallery div p{
+	font-size: 12px;
+	font-family: "微软雅黑";
+	color: #888;
+}
+.gallery .gallery-picture .floor1{
+	width: 1140px;
+	margin: 30px auto;
+}
+.gallery .gallery-picture .floor1 .gallery-dl{
+	float: left;
+	margin: 0 10px;
+}
+.gallery .gallery-picture .floor1 .gallery-dl img{
+	display: block;
+}
+.gallery .gallery-picture .floor1 .gallery-dl .gallery-dd{
+	background-color: black;
+	padding: 20px;
+	color: white;
+	text-align: left;
+}
+.footer{
+	background-color: #00CACA;
+	text-align: center;
+	padding: 20px;
+	color: white;
+}
