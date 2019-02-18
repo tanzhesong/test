@@ -4,6 +4,7 @@
 }
 body{
 	font-family: "微软雅黑";
+	min-width: 1280px;
 }
 
 /* 顶部 */
@@ -649,6 +650,7 @@ body{
 	width: 38px;
 	height: 194px;
 	position: fixed;
+	z-index: 2;
 	background: #b7bbbf;
 	right: 0;
 	top: 50%;
@@ -673,7 +675,7 @@ body{
 	width: 55px;
 	height: 194px;
 	position: fixed;
-	z-index: -1;
+	z-index: 1;
 	right: 0;
 	top: 50%;
 	margin-top: -97px;
