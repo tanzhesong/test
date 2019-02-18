@@ -4,6 +4,9 @@
 	font-family: "微软雅黑";
 	font-size: 14px;
 }
+body{
+	min-width: 1280px;
+}
 .wrap{
 	width: 1200px;
 	margin: 0 auto;
