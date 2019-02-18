@@ -2,18 +2,26 @@
     margin: 0;
     padding: 0;
 }
+body{
+	min-width: 1280px;
+	/*position: relative;*/
+}
+
 .clear{
 	clear: both;
 }
 /*头部*/
 .header{
 	width: 100%;
+	position: relative;
 }
 .header .head{
 	width: 100%;
 	height: 100px;
 	background-color: #00CACA;
 	position: fixed;
+	top: 0;
+	left: 0;
 	z-index: 5;
 	overflow: hidden;
 	zoom:1;
@@ -120,10 +128,16 @@
 .header .banner_mask_top form textarea{
 	margin-top: 10px;
 }
+
+/* main */
+.main{
+	width: 100%;
+}
 .about1{
 	width: 70%;
 	margin: 40px auto;
 	text-align: center;
+	position: relative;
 }
 /*标题下面的小短线*/
 .about1 div hr{
@@ -151,11 +165,11 @@
 	
 }
 .about1 .stu .about1_left p{
-	/*font-weight: bolder;*/
 	font-family: "微软雅黑";
 	font-size: 25px;
 	color: black;
 	width: 150px;
+	margin-top: 50px;
 }
 .about1 .stu .about1_middle{
 	width: 60%;
@@ -187,20 +201,6 @@
 .about1 .stu .about1_right hr{
 	width: 15%;
 }
-/*.about1 .paresent_mask{
-	width: 280px;
-	height: 200px;
-	background-color: #BEBEBE;
-	opacity: 0.3;
-	text-align: left;
-	line-height: 22px;
-	padding: 20px;
-	position: absolute;
-	z-index: 2;
-	margin-top: -250px;
-	margin-left: 120px;
-	/*font-size: 13px;
-}*/
 .about1 .paresent_top{
 	width: 250px;
 	height: 170px;
@@ -209,8 +209,10 @@
 	padding: 20px;
 	position: absolute;
 	z-index: 3;
-	margin-top: -270px;
-	margin-left: 120px;
+	left: 0;
+	top: 0;
+	margin-top: 220px;
+	margin-left: 150px;
 	font-size: 13px;
 	border: 1px solid #ccc;
 	background: rgba(255,255,255,0.5);
@@ -283,15 +285,16 @@
 	color: #d0d0d0;
 }
 .about2 .bg-blue .explore{
-	margin: 35px 110px;
-	border: none;
+	margin: 20px auto;
+    display: block;
+    border: none;
 }
 .about2 .bg-blue .explore:hover{
 	background: #00CACA;
 	border: 1px solid #000;
 }
 .gallery{
-	width: 78%;
+	width: 1280px;
 	margin: 40px auto;
 	text-align: center;
 }
